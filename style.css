@@ -47,3 +47,23 @@ section#telefone{
     background: url(./imagens/frame-iphone.png) no-repeat ;
     
 }
+
+section#redes{
+    text-align: right;
+    padding-right: 10px;
+    
+}
+
+section#redes img:hover{
+    border: 2px solid gold;
+    transform: translate(-3px, -3px);
+}
+
+section#redes img{
+    width: 50px;
+    margin: 5px;        
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+    box-sizing: border-box;
+    
+}
